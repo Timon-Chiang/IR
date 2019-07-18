@@ -29,9 +29,9 @@ enum class Pins{
 
 enum class RemoteButton {
     CH_MINUS = 0x45,
-	  CH = 0x46,
-	  CH_Add = 0x47,
-	  PREV = 0x44,
+	  up = 0x46,
+	  down = 0x47,
+	  one = 0x44,
 	  PLAY = 0x43,
 	  NUM_200 = 0xd,
 	  NEXT = 0x40,
